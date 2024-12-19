@@ -1,0 +1,48 @@
+nav{
+    width: 100%;
+    text-align: center;
+   /* background: rgb(60, 61, 55);  Semi-transparent black background */
+   background-color: rgba(107, 106, 106, 0.5);
+    padding: 10px ;
+    display: flex;
+    border: 1px;
+    border-radius: 8px;
+    margin: 10px 20px 20px 20px;
+    justify-content: space-between;
+    align-items: center;
+    height: 50%;
+  }
+  .header{
+    position: relative;
+     /* Adjust height as needed */
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+     display: flex;
+     margin-bottom: 0px;
+     
+    /*background-color: rgb(30, 32, 30);
+     /* Align navbar at the bottom */
+  }
+  .nav-link {
+    margin: 0 15px;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  .nav-link:hover {
+    color: #FFD700; /* Highlight color on hover */
+  }
+p{
+  text-align: left;
+  margin-left: 50px;
+  margin-top: 30px;
+  font-size: 70px;
+  margin-bottom: 0px;
+  font-family: 'Times New Roman', Times, serif;
+  color: aliceblue;
+  text-align: center;
+}

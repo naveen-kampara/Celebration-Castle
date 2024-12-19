@@ -1,0 +1,97 @@
+.body{
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  justify-content: center;
+  align-items: flex-start; 
+ width: 100%;
+ height: 100hv%;
+ margin-top: 0px;
+}
+.h-card{
+      background-color:rgb(255, 255, 255);
+      padding: 20px;
+      border: 1px;
+      border-radius: 8px;
+      margin: 10px;
+      text-align: center;
+      font-size: 2rem;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      flex-basis: auto; 
+      margin-top: 50px;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      color: #0077ff;
+  }
+ .h-container{
+    margin-top: 50px;
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+  margin-bottom: 110px;
+ }
+
+  .h-text{
+    font-style: italic;
+    color: aliceblue;
+    font-size: larger;
+  }
+
+
+
+  /* From Uiverse.io by nikk7007 */ 
+.btn {
+  --color: #0077ff;
+  --color2: rgb(10, 25, 30);
+  padding: 0.8em 1.75em;
+  background-color: transparent;
+  border-radius: 6px;
+  border: .3px solid var(--color);
+  transition: .5s;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  z-index: 1;
+  font-weight: 300;
+  font-size: 17px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-transform: uppercase;
+  color: var(--color);
+  margin: 20px 0;
+ }
+ 
+ .btn::after, .btn::before {
+  content: '';
+  display: block;
+  height: 100%;
+  width: 100%;
+  transform: skew(90deg) translate(-50%, -50%);
+  position: absolute;
+  inset: 50%;
+  left: 25%;
+  z-index: -1;
+  transition: .5s ease-out;
+  background-color: var(--color);
+ }
+ 
+ .btn::before {
+  top: -50%;
+  left: -25%;
+  transform: skew(90deg) rotate(180deg) translate(-50%, -50%);
+ }
+ 
+ .btn:hover::before {
+  transform: skew(45deg) rotate(180deg) translate(-50%, -50%);
+ }
+ 
+ .btn:hover::after {
+  transform: skew(45deg) translate(-50%, -50%);
+ }
+ 
+ .btn:hover {
+  color: var(--color2);
+ }
+ 
+ .btn:active {
+  filter: brightness(.7);
+  transform: scale(.98);
+ }
