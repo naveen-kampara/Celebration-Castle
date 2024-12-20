@@ -27,7 +27,7 @@
   align-items: center;
   justify-items: center;
   justify-content: center;
-  margin-bottom: 110px;
+  margin-bottom: 132px;
  }
 
   .h-text{
@@ -95,3 +95,20 @@
   filter: brightness(.7);
   transform: scale(.98);
  }
+
+ .bdone{
+  color: black;
+  background-color:rgb(255, 255, 255);
+      padding: 20px;
+      border: 1px;
+      border-radius: 8px;
+      margin: 10px;
+      text-align: center;
+      font-size: 2rem;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      flex-basis: auto; 
+      margin-top: 50px;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      font-size: small;
+    
+}

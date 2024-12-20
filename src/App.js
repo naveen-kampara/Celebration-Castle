@@ -5,6 +5,7 @@ import Home from './components/Home';
 import Slotbooking from './components/Slotbooking';
 import Header from './components/Header';
 import About from './components/About';
+import Bookingdone from './components/Bookingdone';
 import bgimage from './assets/bgimage.jpg';
 
 // Main App component
@@ -17,6 +18,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/Slotbooking" element={<Slotbooking />} />
           <Route path="/About" element={<About />}/>
+          <Route path='/Bookingdone' element={<Bookingdone />} />
         </Routes>
         <footer >Email 📧 : naveenkampara18@gmail.com</footer>
       </div>

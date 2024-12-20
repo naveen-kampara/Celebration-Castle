@@ -5,6 +5,8 @@ import dec1 from '../assets/dec1.jpg';
 import dec2 from '../assets/dec2.jpg';
 import dec3 from '../assets/dec3.jpg';
 import { useState } from 'react';
+import Bookingdone from './Bookingdone';
+import { BrowserRouter as Router, Link } from 'react-router-dom';
 
 const Slotbooking = () => {
   let [userName,setUserName]=useState("");
@@ -56,7 +58,8 @@ const Slotbooking = () => {
         <label for="Mobile">Mobile Number</label>
         <input type="number" id="phnumber" placeholder="Enter your Mobile Number" required/>
       </div>
-      <button type="submit">Book Now</button>
+      <Link to='/Bookingdone'><button type="submit">Book Now</button></Link>
+      
     </form>
   </div>
       </div>
